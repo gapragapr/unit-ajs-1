@@ -1,0 +1,29 @@
+{
+  "name": "unit-ajs-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gapragapr/unit-ajs-1.git"
+  },
+  "author": "gapragapr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gapragapr/unit-ajs-1/issues"
+  },
+  "homepage": "https://github.com/gapragapr/unit-ajs-1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "core-js": "^3.21.0"
+  }
+}
