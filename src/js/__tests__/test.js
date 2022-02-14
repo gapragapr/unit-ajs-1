@@ -16,6 +16,4 @@ test('check function', () => {
 
         expect(received).toBe(expected);
     })
-
-    // expect(received).toBe(expected)
 })
