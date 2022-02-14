@@ -1,11 +1,9 @@
 export default function checkHP(hero){
-    let result;
     if (hero.health > 50){
-        result = 'healty';
+        return 'healthy';
     } else if (hero.health >= 15 && hero.health <= 50){
-        result = 'wounded';
+        return 'wounded';
     } else if (hero.health < 15){
-        result = 'critical';
+        return 'critical';
     }
-    return result
 }
